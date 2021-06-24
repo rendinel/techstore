@@ -1,0 +1,20 @@
+ sudo apt update
+ sudo apt install mysql-server
+ sudo mysql_secure_installation
+ sudo mysql
+ CREATE USER 'lucio'@'localhost' IDENTIFIED BY 'Minchione1990?£$';
+ GRANT ALL PRIVILEGES ON *.* TO 'lucio'@'localhost' WITH GRANT OPTION;
+ FLUSH PRIVILEGES;
+ systemctl status mysql.service
+ sudo systemctl start mysql
+ mysql -u lucio -p
+
+ sudo apt-get install php-mysql
+
+ inside etc/php/8.0/cli/php.ini
+
+ from
+ ;extension=pdo_mysql
+
+ to
+ extension=pdo_mysql.so
