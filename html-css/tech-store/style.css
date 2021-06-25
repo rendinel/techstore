@@ -5,9 +5,36 @@ html {
 body {
     background: white;
     max-width: 1000px;
-    margin: 0 auto;    
+    margin: 0 auto;
+    font-family: 'Barlow', sans-serif;   
 }
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    display: inline;
+}
+
+header h1, nav{
+    display: inline-block;
+}
+
 header,footer {
     color: white;
     background:#333a40;
+}
+
+.product {
+    border: 1px solid grey;
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+}
+
+img{
+    max-width: 100%;
 }
