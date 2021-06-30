@@ -26,4 +26,6 @@ tables
 
 form invia dati dentro url,iframe
 
-css style inline,color #,rgb,rgba,colrpicker,css inline o style head o esterno,css fonts,css safe font,google font,id,class,margin,padding,short of both senso orario top bottom o x3,margin 0 auto,inline,block
+css style inline,color #,rgb,rgba,colrpicker,css inline o style head o esterno,css fonts,css safe font,google font,id,class,
+margin,padding,short of both senso orario top bottom o x3,margin 0 auto,inline,block,box model,chrom dev tools,pseudo-classes(firstoftype,lastoftype,nthchild())
+float and overflow auto,position relative,position absolute,position fixed,position sticky

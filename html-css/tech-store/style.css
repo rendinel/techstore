@@ -7,11 +7,26 @@ body {
     max-width: 1000px;
     margin: 0 auto;
     font-family: 'Barlow', sans-serif;   
+    color: rgb(49,46,46);
 }
 
 ul{
     margin: 0;
     padding: 0;
+}
+
+li{
+    list-style: none;
+    line-height: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color: blue ;
 }
 
 header li{
@@ -22,6 +37,19 @@ header h1, nav{
     display: inline-block;
 }
 
+main{
+    width: 680px;
+    display: inline-block;
+    padding: 10px;
+}
+
+aside{
+    width: 270px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+
 header,footer {
     color: white;
     background:#333a40;
@@ -29,12 +57,53 @@ header,footer {
 
 .product {
     border: 1px solid grey;
-    width: 200px;
+    width: 210px;
     margin: 5px;
     padding: 5px;
     display: inline-block;
+    box-sizing: border-box;
 }
 
 img{
     max-width: 100%;
+}
+
+.button{
+    padding: 10px;
+    display: inline-block;
+}
+
+.button:last-of-type{
+    background-color: #0e69e9;
+    color: white;
+}
+
+/* product-detail-page */
+.product-detail{
+    width: 660px;
+}
+
+.product-detail img{
+    max-width: 50%;
+    float: left;
+}
+
+/* contact us */
+form {
+    padding: 10px;
+    margin: 10px 0;
+    width: 600px;
+}
+
+form > div{
+    margin: 10px 0;
+}
+.inline label{
+    width: 100px;
+    display: inline-block;
+}
+
+input[type="text"], input[type="email"], textarea {
+    padding: 10px;
+    width: 400px;
 }
